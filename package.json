@@ -1,0 +1,27 @@
+{
+  "name": "stringtree-migrate-driver-sqljs",
+  "version": "0.1.0",
+  "description": "sql.js driver for stringtree-migrate Database-agnostic migration utility.",
+  "main": "stringtree-migrate-driver-sqljs.js",
+  "scripts": {
+    "test": "node test/test_all.js"
+  },
+  "dependencies": {
+    "async": "0.9.0",
+    "sql.js": "~0.2.21"
+  },
+  "devDependencies": {
+    "tape": "^3.0.0",
+    "stringtree-migrate-driver-testsuite": "~1.0.0"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type" : "git",
+    "url" : "http://github.com/stringtree/stringtree-migrate-driver-sqljs.git"
+  },
+  "author" : {
+    "name" : "Frank Carver",
+    "email" : "frank@efsol.com",
+    "url" : "http://frankcarver.me/"
+  }
+}
